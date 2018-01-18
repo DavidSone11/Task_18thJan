@@ -1,0 +1,27 @@
+{
+  "name": "TASK_18JAN",
+  "authors": [
+    "david"
+  ],
+  "description": "A Simple web page using bootstrap css html and ng",
+  "main": "app.js",
+  "keywords": [
+    "HTML",
+    "CSS",
+    "NG",
+    "BOOTSTRAP"
+  ],
+  "license": "MIT",
+  "homepage": "www.xyz.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}

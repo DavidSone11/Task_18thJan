@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/sony_playstation_logo_company_66755_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: 1500px 700px;
+}
+
+.navbar-right {
+    float: right!important;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1000;
+
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+ }
+
+ .navbar-left{
+    float:left!important;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+
+    padding: 5px;
+    color: #FFFFFF;
+    font-weight: bold;
+
+ }
+
+ ul.headerNav{
+    display: table;
+    width: 470px;
+    height: 70px;
+
+}
+
+ul.headerNav li {
+    list-style: none;
+    display: table-cell;
+    text-align: center;
+    width:160px;
+    vertical-align: middle;
+}
+
+ul.headerNav li a {
+    display: block;
+    color:#fff;
+}
+
+#page-wrapper{
+text-align: center;
+color: black;
+margin: 180px;
+font-weight: bold;
+
+}

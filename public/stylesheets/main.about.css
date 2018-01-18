@@ -1,0 +1,38 @@
+
+
+*{
+    margin: 0;
+    padding:0;
+}
+
+body{
+    overflow-y:hidden;
+    overflow-x:hidden;
+    margin: 0;
+    padding:0;
+}
+
+.col-lg-6{
+    float: left;
+    width: 50%;
+    background: #141720;
+    height: 100%;
+    position: relative;
+    min-height: 680px;
+    color: white;
+    padding: 0;
+
+}
+
+
+
+.custom-col-lg-6{
+    float: right;
+    width: 50%;
+    background: #f5f5f7;
+    height: 100%;
+    position: relative;
+    min-height: 680px;
+    padding: 0;
+
+}

@@ -1,0 +1,17 @@
+{
+  "port": 8000,
+  "files": [
+
+    "./public/**/*.html",
+    "./public/**/*.htm",
+    "./public/stylesheets/*.css",
+    "./public/**/*.js",
+    "./public/**/*.jpg",
+    "./public/**/*.png",
+    "./public/**/*.sass"
+
+  ],
+  "server": {
+    "baseDir": "./public"
+  }
+}
