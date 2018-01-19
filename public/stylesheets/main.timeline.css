@@ -1,58 +1,63 @@
+*, *:before, *:after, * * {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0) !important;
+    -webkit-focus-ring-color: rgba(255, 255, 255, 0) !important;
+    outline: none !important;
+  }
 
-body {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
-    overflow-y: hidden;
+  .g--flex {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .g--flex > * {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+  }
+
+  body {
+    font: 15px/1 "Proxima Nova", sans-serif;
+  }
+
+  html, body, body > * {
+    min-height: 100%;
+  }
+
+  html, body, body > * {
+    height: 100%;
+  }
+
+  /*
+      elements
+  */
+  .ratio {
+    position: relative;
+  }
+
+  .ratio canvas {
+    visibility: hidden;
+    display: block;
+    width: 100%;
+  }
+
+  .ratio canvas + * {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
-}
-
-
-.col-lg-6{
-    float: left;
-    width: 50%;
-    background: #fff;
-    height: 100%;
-    position: relative;
-    min-height: 780px;
-    color: #000000;
-}
-
-
-
-.custom-col-lg-6{
-    float: right;
-    width: 50%;
-    background: #fff;
-    height: 100%;
-    position: relative;
-    min-height: 780px;
-}
-
-
-#outer-circle {
-    background: rgb(171,29,45);
-    border-radius: 50%;
-    height: 40px;
-    width: 40px;
-    position: relative;
-    -webkit-font-smoothing: antialiased;
-
-  }
-  #inner-circle {
-    position: absolute;
-    background: #fff;
-    border-radius: 50%;
-    height: 30px;
-    width: 30px;
-    top: 18%;
-    left: 21%;
-    /* margin: 18px 0px 0px -9px; */
-    -webkit-font-smoothing: antialiased;
   }
 
+  .ratio.set--height canvas {
+    width: auto;
+    height: 100%;
+  }
 
+  .svg {
+    display: inline-block;
+  }
 
   .timeline {
     position: relative;
@@ -108,7 +113,7 @@ body {
     width: 20px;
     height: 20px;
     background: white;
-    border: 2px solid rgb(171,29,45);;
+    border: 2px solid #718394;
     border-radius: 20px;
   }
   .dot__icon.is--waiting {
@@ -157,7 +162,7 @@ body {
   */
   .scene {
     position: relative;
-    background-color: #020111;
+    background-color: #fff;
   }
 
   .scene__shade {
